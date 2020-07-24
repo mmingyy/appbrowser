@@ -28,6 +28,7 @@ export class HomePage {
       zoom: 'no'
     }
     //opening a URL and returning an InAppBrowserObject
-    const browser = this.iab.create(url,'_self',options);
+     const browser = this.iab.create(url,'_self',options);
+    //const browser = this.iab.create(url,'_system',options);
   }
 }
